@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+a {
+  text-decoration: underline;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.h-img {
+  border-radius: 20px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.icon {
+  width: 3rem;
+}
+body {
+  background: hsl(225, 100%, 94%);
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.para {
+  font-size: 1rem;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.6;
+}
+.bold {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.heading {
+  font-size: 1.5rem;
+  color: hsl(223, 47%, 23%);
+  padding: 10px 0;
+}
+.cta {
+  color: hsl(245, 75%, 52%);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.cta:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+.order-container {
+  text-align: center;
+  background: white;
+  width: 20rem;
+  border-radius: 20px;
+}
+
+.text-section {
+  padding: 15px;
+}
+.subcription {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  padding: 10px 0;
+}
+
+.song-plan {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.primary-btn {
+  width: 16rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: transparent;
+  color: white;
+  font-weight: 600;
+  background: hsl(245, 75%, 52%);
+  margin: 15px 0;
+}
+.primary-btn:hover {
+  opacity: 0.7;
+}
+.transparent:hover {
+  opacity: 1;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+.transparent {
+  background: inherit;
+  color: hsl(224, 23%, 55%);
+  margin-top: 1px;
+}
+
+@media (min-width: 768px) {
+  .order-container {
+    width: 22rem;
+  }
+  .primary-btn {
+    width: 18rem;
+  }
+}
